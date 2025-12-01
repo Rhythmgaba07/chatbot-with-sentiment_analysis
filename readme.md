@@ -41,7 +41,7 @@ Installation & Setup
 
 Clone the repository:
 
-git clone <your-repo-url>
+git clone https://github.com/Rhythmgaba07/chatbot-with-sentiment_analysis
 cd chatbot-with-sentiment_analysis
 
 
