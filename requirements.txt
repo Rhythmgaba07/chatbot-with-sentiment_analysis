@@ -1,5 +1,2 @@
-nltk>=3.8
 vaderSentiment>=3.3.2
 pytest>=7.0
-transformers>=4.0.0 
-torch>=1.13.0
