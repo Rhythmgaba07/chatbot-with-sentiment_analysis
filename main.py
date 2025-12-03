@@ -3,7 +3,7 @@ from src.chatbot import Chatbot
 
 def main():
     bot = Chatbot(model_name="vader")
-    print("🤖 Liapus AI Chatbot | Sentiment-Aware")
+    print("Liapus AI Chatbot | Sentiment-Aware")
     print("Type 'exit' to quit.\n")
 
     while True:
@@ -19,7 +19,7 @@ def main():
 
 
     # After chat session, show mood analysis
-    print("\n📊 Conversation Summary:")
+    print("\n Conversation Summary:")
     summary = bot.finalize_conversation_report()
     print(f"Overall Sentiment: {summary['overall_sentiment']['label']}  "
       f"Score: {summary['overall_sentiment']['compound']:.3f}")
